@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+#restore $PATH to default which is stored in /etc/environment
+#emergency only
+
+source /etc/environment
+echo $PATH
