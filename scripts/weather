@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+#checks local weather forecast
+
+curl wttr.in
