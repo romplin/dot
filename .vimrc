@@ -1,6 +1,4 @@
 
-
-
 set nocompatible                "Use Vim settings, rather than Vi settings
                                 "Be IMproved
 
@@ -23,11 +21,11 @@ Plugin 'nvie/vim-flake8'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'lervag/vimtex'
-Plugin 'udalov/kotlin-vim'
-Plugin 'vim/killersheep'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'preservim/nerdtree'
+Plugin 'fatih/vim-go'
+Plugin 'TovarishFin/vim-solidity'
+
 
 " JS stuff
 Plugin 'pangloss/vim-javascript'
@@ -117,7 +115,6 @@ cmap w!! w !sudo tee >/dev/null %
 syntax enable
 "set background=dark
 let g:solarized_termcolors=256
-colorscheme gruvbox
 set bg=dark
 
 let g:airline_powerline_fonts = 1
