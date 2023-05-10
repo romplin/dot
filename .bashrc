@@ -118,4 +118,11 @@ fi
 
 #path config
 
+export PATH="/home/andrew/.local/bin:$PATH"
 
+
+#terraform
+complete -C /usr/bin/terraform terraform
+
+#golang
+export PATH=$PATH:/usr/local/go/bin
